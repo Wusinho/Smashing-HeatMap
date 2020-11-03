@@ -1,0 +1,10 @@
+.container {
+  display: grid;
+  grid-template-columns: 400px;
+  grid-template-rows: 100px repeat(4, 400px) 500px;
+  gap: 10px;
+}
+
+.items {
+  background-color: red;
+}
