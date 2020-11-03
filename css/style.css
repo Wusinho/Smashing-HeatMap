@@ -71,3 +71,10 @@
   font-size: 50px;
   color: black;
 }
+
+.greyA {
+  text-align: center;
+  width: 100%;
+  background-color: red;
+  font-size: 50px;
+}
