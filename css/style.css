@@ -10,6 +10,31 @@
   gap: 10px;
 }
 
+.box1 {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.nav {
+  width: 120px;
+  height: 50px;
+  background-color: #adb5bd;
+  margin: 5px;
+}
+.nav7 {
+  width: 120px;
+  height: 65px;
+  background-color: #dee2e6;
+  margin: 5px;
+}
+
+.nav8 {
+  width: 50%;
+  height: 75px;
+  background-color: #f8f9fa;
+}
+
 .box2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -51,7 +76,7 @@
 .box8 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 400px 400px;
+  grid-template-rows: 400px auto;
   gap: 10px;
 }
 
@@ -65,7 +90,7 @@
 }
 
 .grey3 {
-  background-color: #6c757d;
+  background-color: #495057;
   font-size: 35px;
 }
 
@@ -88,11 +113,13 @@
 .paragraph1 {
   width: 400px;
   margin: 0 auto;
+  color: white;
 }
 
 .paragraph2 {
   width: 125px;
   margin: 0 auto;
+  color: white;
 }
 
 /* Start in small boxes inside the second section */
@@ -116,14 +143,14 @@
 .img-box {
   width: 100px;
   height: 100px;
-  background-color: red;
+  background-color: #495057;
   margin-right: 10px;
 }
 
 .author-name {
   width: 100px;
   height: 30px;
-  background-color: red;
+  background-color: #6c757d;
 }
 
 .article-title {
@@ -134,7 +161,8 @@
 .article-title h1 {
   font-size: 25px;
   font-weight: bold;
-  background-color: yellow;
+  background-color: #343a40;
+  color: white;
 }
 .article-category {
   display: flex;
@@ -146,7 +174,7 @@
 .article-category div {
   width: 100px;
   height: 25px;
-  background-color: red;
+  background-color: #adb5bd;
 }
 
 /*  End of the second Section */
@@ -163,24 +191,25 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding: 40px;
 }
 
 .box3-text p {
   width: 250px;
-  height: 250px;
-  background-color: yellow;
+  height: 200px;
+  background-color: #adb5bd;
 }
 
 .box3-text button {
-  width: 150px;
+  width: 250px;
   height: 35px;
-  background-color: yellow;
+  background-color: #e9ecef;
 }
 
 .box3-img {
-  width: 150px;
-  height: 150px;
-  background-color: red;
+  width: 200px;
+  height: 250px;
+  background-color: #f8f9fa;
   margin-top: -30px;
 }
 
@@ -325,15 +354,51 @@
   background-color: yellow;
 }
 
-.itemsB {
+.items8 {
   box-sizing: border-box;
   width: 100%;
   padding: 50px;
+  background-color: #dee2e6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.itemsB h1 {
+.items8 h1 {
   width: 500px;
   height: 75px;
   background-color: red;
   padding: 30px;
+}
+
+.items8 button {
+  width: 500px;
+  height: 75px;
+  background-color: red;
+  margin: 30px 0;
+}
+
+.image8 {
+  width: 300px;
+  height: 300px;
+  background-color: yellow;
+  margin-bottom: 20px;
+  align-self: center;
+}
+
+.box8 .items8 .Last-B {
+  width: 100%;
+}
+
+.box9 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footerS {
+  width: 100px;
+  height: 50px;
+  background-color: yellow;
+  margin: 20px;
 }
